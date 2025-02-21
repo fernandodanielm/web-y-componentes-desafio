@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header class="header">
+        <img src="logo.jpeg" class="header__logo">
+        <div class="menunodesplegable">
+            <a href=""><h3>Portfolio</h3></a>
+            <a href="./servicios.html"><h3>Servicios</h3></a>
+            <a href="./contacto.html"><h3>Contacto</h3></a>
+        </div>
+        <button class="header__menu"><img src="menu.png"></button>
+        <nav class="header__nav" id="menuDesplegable">
+            <div class="menu-container">
+                <h1><a href="">Portfolio</a></h1>
+                <h1><a href="./servicios.html">Servicios</a></h1>
+                <h1><a href="./contacto.html">Contacto</a></h1>
+            </div>
+            <button class="cerrar__menu" id="cerrarMenu"><img src="equis.png"></button>
+        </nav>
+    </header>
+    <section class="section1">
+        <div class="section1__container">
+            <h1 class="section1__titulo1">Hola</h1>
+            <h1 class="section1__titulo2">Soy</h1>
+            <h1 class="section1__titulo3">Fer</h1>
+        </div>
+        <img src="cohete.png" class="section1__cohete">
+    </section>
+    <section class="section2">
+        <h1 class="section2__titulo">Soy Fer</h1>
+        <p class="section2__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sequi quam voluptas eligendi maxime culpa totam explicabo dolorum accusamus ullam provident laboriosam, officia expedita est temporibus eum aspernatur. Quia, nihil?</p>
+        <img src="imagenmia.jpg" class="section2__imagen">
+    </section>
+    <section class="section3">
+        <h1 class="section3__titulo">Mis servicios</h1><br>
+        <div class="section3__content">
+            <div class="section3__container1">
+                <img src="imagensection3_1.png" class="section3__imagen1">
+                <h1 class="section3__titulo_de_container">Desarrollo de paginas web</h1>
+                <p>Creación de paginas webs, totalmente responsive y mobile first. Lorem impsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div><br>
+            <div class="section3__container2">
+                <img src="imagensection3_2.png" class="section3__imagen2">
+                <h1 class="section3__titulo_de_container2">Animaciones para webs</h1>
+                <p>Animaciones personalizadas con CSS, JS y Frameworks. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam tenetur nisi magni corrupti molestiae maiores, in id dicta facere, praesentium quos dolores doloribus officia illo explicabo! Sit, maiores possimus.</p>
+            </div>
+            <div class="section3__container3">
+                <img src="imagensection3_3.png" class="section3__imagen3">
+                <h1 class="section3__titulo_de_container3">Desarrollo de apps</h1>
+                <p>Algo interesante sobre mi Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem tempora quasi incidunt sit. Eveniet, magni rem incidunt odit quaerat, alias, earum vel repudiandae perferendis ducimus doloribus accusamus debitis eaque! Quia?</p>
+            </div>
+        </div>
+    </section>    
+    <form class="form">
+        <h1 class="form__titulo">Escribime</h1>
+        <div class="form__content">
+            <div class="form__fields">
+                <div class="field-group">
+                    <label for="nombre" class="label__nombre">Nombre</label>
+                    <input type="text" id="nombre" class="input__nombre">
+                </div>
+                <div class="field-group">
+                    <label for="email" class="label__email">Email</label>
+                    <input type="email" id="email" class="input__email">
+                </div>
+            </div>
+            <div class="field-group">
+                <label for="mensaje" class="label__mensaje">Mensaje</label>
+                <input type="text" id="mensaje" class="input__mensaje">
+            </div>
+            <button class="button">Enviar</button>
+        </div>
+    </form>       
+    <footer class="footer">
+        <img src="logo.jpeg" class="footer__logo">
+        <div class="footer__menu">
+            <a href="index.html">
+                <img src="home.png">
+            </a>
+            <a href="./servicios.html">
+                <img src="servicios.png">
+            </a>
+            <a href="./contacto.html">
+                <img src="contacto.png">
+            </a>
+        </div>
+        <div class="containerderedessociales">
+            <a href="https://www.linkedin.com/in/fernando-m-b58b63131/">
+                <img src="linkedin.png">
+            </a>
+            <a href="https://github.com/fernandodanielm">
+                <img src="github.png">
+            </a>
+            <img src="twitter.png">
+        </div>
+        <p class="parrafofinal">@2025 - https://apx.school</p>
+    </footer>
+</body>
+</html>
