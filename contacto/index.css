@@ -1,0 +1,94 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 649px;
+    background-color: #303030;
+    color: #DEDDD9;
+}
+
+.input__nombre,
+.input__email,
+.input__mensaje {
+    width: 313px;
+    background-color: #393E4680;
+    border-radius: 24px;
+}
+
+.input__nombre {
+    height: 59px;
+}
+
+.input__email {
+    height: 59px;
+}
+
+.input__mensaje {
+    height: 280px;
+}
+
+.button {
+    width: 312px;
+    height: 55px;
+    background-color: #00ADB5;
+    border-radius: 24px;
+    margin-top: 20px;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.label__nombre,
+.label__email,
+.label__mensaje {
+    margin-bottom: 8px;
+}
+
+@media (min-width: 960px) {
+    .form {
+        width: 100%;
+        height: 1024px;
+        display: flex;
+        flex-direction: row; 
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .form__titulo {
+        flex: 1; 
+        font-size: 42px; 
+        text-align: left;
+        margin-right: 20px;
+    }
+
+    .form__content {
+        flex: 2; 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form__fields {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .input__nombre,
+    .input__email {
+        width: calc(50% - 10px); 
+    }
+
+    .input__mensaje {
+        width: 100%;
+    }
+}
