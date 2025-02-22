@@ -284,9 +284,9 @@
 @media (min-width: 965px) {
     .section3 {
         width: 100%;
-        height: 942px; /* Ajusta la altura automáticamente según el contenido */
+        height: 942px; 
         display: flex;
-        flex-direction: column; /* Mantiene la columna para el título */
+        flex-direction: column; 
         align-items: center;
     }
 
